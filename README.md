@@ -3,8 +3,8 @@
 ## Task description
 
 Task is to integrate upcoming interview API in the upcoming interview widget.
-*Emphasized text*
-Make your changes in *Emphasized text*@pages/dashoboard/Dashboard.tsx
+
+**Strong text** Make your changes in @pages/dashoboard/Dashboard.tsx
 You can make use of the abstracted axios interceptor (already imprted in Dashboard.tsx) intstead of native axios.
 You are free to use any css libraries of your choice.
 
