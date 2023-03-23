@@ -19,8 +19,12 @@ Apply the below filters to the endpoint to get the list of interviews from the c
 Sample request : http://interview-service-alb-355656776.ap-south-1.elb.amazonaws.com/api/v1/interviews?filter=scheduledTime+ge+%272023-03-24+02:14:48%27&sort=scheduledTime+asc
 
 After retrieving the list of interviews, categorize them into interviews scheduled for today, tomorrow and other dates as in the design attached.<br/><br/><br/>
+On hover each candidate change candidate section and button color<br/>
 Values to be retirieved are candidate name and scheduledTime
 Role detail i.e "Role Senior Developer" can be hard coded
+
+
+<img width="692" alt="Screenshot 2023-03-24 at 2 49 47 AM" src="https://user-images.githubusercontent.com/9131336/227365435-09711d80-ca72-4917-ab14-9a22c9f6448c.png">
 
 
 
