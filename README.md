@@ -11,8 +11,9 @@ You are free to use any css libraries of your choice.
 Enpoint to be used : http://interview-service-alb-355656776.ap-south-1.elb.amazonaws.com/api/v1/interviews
 
 Apply the below filters to the endpoint to get the list of interviews from the current date
-filter: scheduledTime ge {fromDate}
-sort: scheduledTime asc
+
+:rocket:filter: scheduledTime ge {fromDate}
+:rocket:sort: scheduledTime asc
 
 After retrieving the list of interviews, categorize them into interviews scheduled for today, tomorrow and other dates as in the design attached.
 Values to be retirieved are candidate name and scheduledTime
