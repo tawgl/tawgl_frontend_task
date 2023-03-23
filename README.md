@@ -20,7 +20,7 @@ Sample request : http://interview-service-alb-355656776.ap-south-1.elb.amazonaws
 
 After retrieving the list of interviews, categorize them into interviews scheduled for today, tomorrow and other dates as in the design attached.<br/>
 On hover each candidate change candidate section and button color<br/>
-Values to be retirieved are candidate name and scheduledTime
+Values to be retirieved are "candidate full name" and "scheduledTime".<br/>
 Role detail i.e "Role Senior Developer" can be hard coded
 
 
