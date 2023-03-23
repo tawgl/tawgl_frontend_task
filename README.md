@@ -12,9 +12,9 @@ Enpoint to be used : http://interview-service-alb-355656776.ap-south-1.elb.amazo
 
 Apply the below filters to the endpoint to get the list of interviews from the current date
 
-filter: scheduledTime ge {fromDate} <br />
+**filter: scheduledTime ge {fromDate} **<br />
 
-sort: scheduledTime asc <br />
+**sort: scheduledTime asc** <br />
 
 After retrieving the list of interviews, categorize them into interviews scheduled for today, tomorrow and other dates as in the design attached.
 Values to be retirieved are candidate name and scheduledTime
